@@ -1,0 +1,45 @@
+// FE Exam Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM160",
+  slug: "fe-exam",
+  name: "FE Exam",
+  fullName: "Fundamentals of Engineering",
+  alias: "Fundamentals of Engineering",
+  family: "FE",
+  category: "Professional licensure",
+  subcategory: "Engineering licensure",
+  country: "United States",
+  region: "North America",
+  languages: ["English"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "20-35",
+  targetUser: "Engineering graduate",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ"],
+  adaptivity: "Linear",
+  sections: "Discipline variants",
+  scoringMode: "Scaled/pass",
+  essayOrSpeaking: "No",
+  ipRisk: "High",
+  contentReuse: "engineering_subjects",
+  uiEngine: "timed_objective",
+  monetizationPotential: "Medium",
+  tier: "Tier 6",
+  launchWave: "Wave 8",
+  themeColor: "#DC2626",
+  themeColorDark: "#B91C1C",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: false,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
